@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PlusJakartaSans-Bold.ttf">
+            <string>PlusJakartaSans-Bold</string>
+        </array>
+        <array key="PlusJakartaSans-Medium.ttf">
+            <string>PlusJakartaSans-Medium</string>
+        </array>
+        <array key="PlusJakartaSans-Regular.ttf">
+            <string>PlusJakartaSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wf6-Cq-pme">
+            <rect key="frame" x="0.0" y="0.0" width="359" height="64"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar-0" translatesAutoresizingMaskIntoConstraints="NO" id="KDh-YU-I9E">
+                    <rect key="frame" x="8" y="8" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="48" id="KsY-vs-juM"/>
+                        <constraint firstAttribute="height" constant="48" id="r4s-4A-8gq"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZNv-c8-MoE">
+                    <rect key="frame" x="44" y="44" width="12" height="12"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7A4-CV-Wbx">
+                            <rect key="frame" x="2" y="2" width="8" height="8"/>
+                            <color key="backgroundColor" name="YellowColor"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="12" id="5Td-mj-xTw"/>
+                        <constraint firstAttribute="bottom" secondItem="7A4-CV-Wbx" secondAttribute="bottom" constant="2" id="8C4-NC-Ttf"/>
+                        <constraint firstItem="7A4-CV-Wbx" firstAttribute="top" secondItem="ZNv-c8-MoE" secondAttribute="top" constant="2" id="Fbf-Cv-wwR"/>
+                        <constraint firstItem="7A4-CV-Wbx" firstAttribute="leading" secondItem="ZNv-c8-MoE" secondAttribute="leading" constant="2" id="Hv7-G2-WCc"/>
+                        <constraint firstAttribute="width" constant="12" id="Q71-9a-iS5"/>
+                        <constraint firstAttribute="trailing" secondItem="7A4-CV-Wbx" secondAttribute="trailing" constant="2" id="Qzq-fK-Sk1"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Darlene Steward" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kt2-3A-bvy">
+                    <rect key="frame" x="72" y="8" width="212" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="212" id="GT4-V0-8Ao"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="PlusJakartaSans-Medium" family="Plus Jakarta Sans" pointSize="14"/>
+                    <color key="textColor" name="DeepColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pls take a look at the images" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFT-Dy-pw2">
+                    <rect key="frame" x="72" y="34" width="212" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="tFa-zZ-wZB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="PlusJakartaSans-Regular" family="Plus Jakarta Sans" pointSize="12"/>
+                    <color key="textColor" name="GrayColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12.31" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUK-Pw-pgI">
+                    <rect key="frame" x="291" y="9.5" width="60" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="3Au-cM-wRe"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="PlusJakartaSans-Regular" family="Plus Jakarta Sans" pointSize="12"/>
+                    <color key="textColor" name="GrayColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Bf-DQ-mvm">
+                    <rect key="frame" x="327" y="31" width="24" height="24"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUE-lu-gu6">
+                            <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="24" id="BGW-nm-FOB"/>
+                                <constraint firstAttribute="height" constant="24" id="PdG-L4-evK"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="PlusJakartaSans-Bold" family="Plus Jakarta Sans" pointSize="12"/>
+                            <color key="textColor" name="WhiteColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="12"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" name="PrimaryColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="dKC-Iv-puF"/>
+                        <constraint firstItem="gUE-lu-gu6" firstAttribute="centerX" secondItem="5Bf-DQ-mvm" secondAttribute="centerX" id="eQL-PA-9vh"/>
+                        <constraint firstAttribute="height" constant="24" id="kNz-Hd-ccf"/>
+                        <constraint firstItem="gUE-lu-gu6" firstAttribute="centerY" secondItem="5Bf-DQ-mvm" secondAttribute="centerY" id="olX-mL-DjO"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="xwE-AO-rQX"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="kt2-3A-bvy" firstAttribute="top" secondItem="wf6-Cq-pme" secondAttribute="top" constant="8" id="7iN-Iu-ix2"/>
+                <constraint firstItem="sFT-Dy-pw2" firstAttribute="leading" secondItem="kt2-3A-bvy" secondAttribute="leading" id="AwF-Uu-83D"/>
+                <constraint firstAttribute="width" constant="359" id="E9o-u4-imc"/>
+                <constraint firstItem="5Bf-DQ-mvm" firstAttribute="centerY" secondItem="sFT-Dy-pw2" secondAttribute="centerY" id="Gld-1T-5ll"/>
+                <constraint firstItem="kt2-3A-bvy" firstAttribute="leading" secondItem="KDh-YU-I9E" secondAttribute="trailing" constant="16" id="JBa-Yt-NGi"/>
+                <constraint firstItem="KDh-YU-I9E" firstAttribute="centerY" secondItem="wf6-Cq-pme" secondAttribute="centerY" id="K0Z-uF-F35"/>
+                <constraint firstItem="KDh-YU-I9E" firstAttribute="leading" secondItem="wf6-Cq-pme" secondAttribute="leading" constant="8" id="M8I-ti-2ww"/>
+                <constraint firstAttribute="height" constant="64" id="T0m-qh-wil"/>
+                <constraint firstItem="IUK-Pw-pgI" firstAttribute="centerY" secondItem="kt2-3A-bvy" secondAttribute="centerY" id="TPX-Xg-h2O"/>
+                <constraint firstAttribute="trailing" secondItem="IUK-Pw-pgI" secondAttribute="trailing" constant="8" id="W8H-gG-huk"/>
+                <constraint firstAttribute="bottom" secondItem="sFT-Dy-pw2" secondAttribute="bottom" constant="12" id="aZm-Zy-csL"/>
+                <constraint firstAttribute="trailing" secondItem="5Bf-DQ-mvm" secondAttribute="trailing" constant="8" id="mkQ-uN-BaZ"/>
+                <constraint firstItem="ZNv-c8-MoE" firstAttribute="bottom" secondItem="KDh-YU-I9E" secondAttribute="bottom" id="tmX-Ek-GDM"/>
+                <constraint firstItem="sFT-Dy-pw2" firstAttribute="width" secondItem="kt2-3A-bvy" secondAttribute="width" id="w4y-U9-xbM"/>
+                <constraint firstItem="ZNv-c8-MoE" firstAttribute="trailing" secondItem="KDh-YU-I9E" secondAttribute="trailing" id="zok-d2-Vrx"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="44" y="-548"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="avatar-0" width="48" height="48"/>
+        <namedColor name="DeepColor">
+            <color red="0.10599999874830246" green="0.10199999809265137" blue="0.34099999070167542" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GrayColor">
+            <color red="0.31000000238418579" green="0.36899998784065247" blue="0.48199999332427979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="PrimaryColor">
+            <color red="0.18400000035762787" green="0.50199997425079346" blue="0.92900002002716064" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="YellowColor">
+            <color red="0.94900000095367432" green="0.78799998760223389" blue="0.29800000786781311" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

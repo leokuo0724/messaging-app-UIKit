@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB39EF2125B0206300646762 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB39EF2025B0206300646762 /* Chat.swift */; };
+		EB39EF2B25B02F3B00646762 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB39EF2A25B02F3B00646762 /* CodeViewController.swift */; };
+		EB39EF2F25B030C700646762 /* CodeChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB39EF2E25B030C700646762 /* CodeChatCell.swift */; };
+		EB39EF3625B043E100646762 /* XibChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB39EF3525B043E100646762 /* XibChatCell.xib */; };
 		EB73849525AF5CF100C38D7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB73849425AF5CF100C38D7E /* AppDelegate.swift */; };
 		EB73849725AF5CF100C38D7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB73849625AF5CF100C38D7E /* SceneDelegate.swift */; };
 		EB73849C25AF5CF100C38D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB73849A25AF5CF100C38D7E /* Main.storyboard */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB39EF2025B0206300646762 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		EB39EF2A25B02F3B00646762 /* CodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
+		EB39EF2E25B030C700646762 /* CodeChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeChatCell.swift; sourceTree = "<group>"; };
+		EB39EF3525B043E100646762 /* XibChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibChatCell.xib; sourceTree = "<group>"; };
 		EB73849125AF5CF100C38D7E /* messaging-app-UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "messaging-app-UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB73849425AF5CF100C38D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB73849625AF5CF100C38D7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +53,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB39EF1F25B0205200646762 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB39EF2025B0206300646762 /* Chat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB39EF2725B02E0000646762 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB7384BC25B0159B00C38D7E /* StoryboardChatCell.swift */,
+				EB39EF2E25B030C700646762 /* CodeChatCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EB73848825AF5CF100C38D7E = {
 			isa = PBXGroup;
 			children = (
@@ -66,11 +91,13 @@
 			children = (
 				EB73849425AF5CF100C38D7E /* AppDelegate.swift */,
 				EB73849625AF5CF100C38D7E /* SceneDelegate.swift */,
-				EB73849A25AF5CF100C38D7E /* Main.storyboard */,
-				EB7384BC25B0159B00C38D7E /* StoryboardChatCell.swift */,
+				EB39EF1F25B0205200646762 /* Model */,
 				EB7384B525B012C200C38D7E /* ViewControllers */,
-				EB73849D25AF5CF300C38D7E /* Assets.xcassets */,
+				EB39EF2725B02E0000646762 /* Views */,
 				EB7384B025B009CC00C38D7E /* Resources */,
+				EB73849D25AF5CF300C38D7E /* Assets.xcassets */,
+				EB73849A25AF5CF100C38D7E /* Main.storyboard */,
+				EB39EF3525B043E100646762 /* XibChatCell.xib */,
 				EB73849F25AF5CF300C38D7E /* LaunchScreen.storyboard */,
 				EB7384A225AF5CF300C38D7E /* Info.plist */,
 			);
@@ -90,6 +117,7 @@
 		EB7384B525B012C200C38D7E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				EB39EF2A25B02F3B00646762 /* CodeViewController.swift */,
 				EB7384B825B012F400C38D7E /* StoryboardViewController.swift */,
 			);
 			path = ViewControllers;
@@ -154,6 +182,7 @@
 			files = (
 				EB7384A125AF5CF300C38D7E /* LaunchScreen.storyboard in Resources */,
 				EB7384AE25B009C600C38D7E /* PlusJakartaSans-Regular.ttf in Resources */,
+				EB39EF3625B043E100646762 /* XibChatCell.xib in Resources */,
 				EB7384AC25B009C600C38D7E /* PlusJakartaSans-Bold.ttf in Resources */,
 				EB7384AD25B009C600C38D7E /* PlusJakartaSans-Medium.ttf in Resources */,
 				EB73849E25AF5CF300C38D7E /* Assets.xcassets in Resources */,
@@ -170,7 +199,10 @@
 			files = (
 				EB7384BD25B0159B00C38D7E /* StoryboardChatCell.swift in Sources */,
 				EB73849525AF5CF100C38D7E /* AppDelegate.swift in Sources */,
+				EB39EF2F25B030C700646762 /* CodeChatCell.swift in Sources */,
 				EB7384B925B012F400C38D7E /* StoryboardViewController.swift in Sources */,
+				EB39EF2B25B02F3B00646762 /* CodeViewController.swift in Sources */,
+				EB39EF2125B0206300646762 /* Chat.swift in Sources */,
 				EB73849725AF5CF100C38D7E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
