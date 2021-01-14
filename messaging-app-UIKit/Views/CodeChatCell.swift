@@ -152,7 +152,6 @@ class CodeChatCell: UITableViewCell {
         } else {
             onlineStatusView.isHidden = true
         }
-        
     }
 
 }

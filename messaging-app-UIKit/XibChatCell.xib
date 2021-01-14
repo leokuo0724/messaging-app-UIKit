@@ -22,70 +22,63 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wf6-Cq-pme">
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wf6-Cq-pme" customClass="XibChatCell" customModule="messaging_app_UIKit" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="359" height="64"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar-0" translatesAutoresizingMaskIntoConstraints="NO" id="KDh-YU-I9E">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar-0" translatesAutoresizingMaskIntoConstraints="NO" id="KDh-YU-I9E">
                     <rect key="frame" x="8" y="8" width="48" height="48"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="48" id="KsY-vs-juM"/>
-                        <constraint firstAttribute="height" constant="48" id="r4s-4A-8gq"/>
-                    </constraints>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZNv-c8-MoE">
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZNv-c8-MoE">
                     <rect key="frame" x="44" y="44" width="12" height="12"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7A4-CV-Wbx">
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7A4-CV-Wbx">
                             <rect key="frame" x="2" y="2" width="8" height="8"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" name="YellowColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
                         </view>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="12" id="5Td-mj-xTw"/>
-                        <constraint firstAttribute="bottom" secondItem="7A4-CV-Wbx" secondAttribute="bottom" constant="2" id="8C4-NC-Ttf"/>
-                        <constraint firstItem="7A4-CV-Wbx" firstAttribute="top" secondItem="ZNv-c8-MoE" secondAttribute="top" constant="2" id="Fbf-Cv-wwR"/>
-                        <constraint firstItem="7A4-CV-Wbx" firstAttribute="leading" secondItem="ZNv-c8-MoE" secondAttribute="leading" constant="2" id="Hv7-G2-WCc"/>
-                        <constraint firstAttribute="width" constant="12" id="Q71-9a-iS5"/>
-                        <constraint firstAttribute="trailing" secondItem="7A4-CV-Wbx" secondAttribute="trailing" constant="2" id="Qzq-fK-Sk1"/>
-                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="6"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </view>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Darlene Steward" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kt2-3A-bvy">
-                    <rect key="frame" x="72" y="8" width="212" height="18"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="212" id="GT4-V0-8Ao"/>
-                    </constraints>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Darlene Steward" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kt2-3A-bvy">
+                    <rect key="frame" x="72" y="8" width="212" height="16.5"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="PlusJakartaSans-Medium" family="Plus Jakarta Sans" pointSize="14"/>
                     <color key="textColor" name="DeepColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pls take a look at the images" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFT-Dy-pw2">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pls take a look at the images" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFT-Dy-pw2">
                     <rect key="frame" x="72" y="34" width="212" height="18"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="18" id="tFa-zZ-wZB"/>
-                    </constraints>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="PlusJakartaSans-Regular" family="Plus Jakarta Sans" pointSize="12"/>
                     <color key="textColor" name="GrayColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12.31" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUK-Pw-pgI">
-                    <rect key="frame" x="291" y="9.5" width="60" height="15"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="60" id="3Au-cM-wRe"/>
-                    </constraints>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12.31" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUK-Pw-pgI">
+                    <rect key="frame" x="291" y="9.5" width="60" height="14"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="PlusJakartaSans-Regular" family="Plus Jakarta Sans" pointSize="12"/>
                     <color key="textColor" name="GrayColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Bf-DQ-mvm">
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Bf-DQ-mvm">
                     <rect key="frame" x="327" y="31" width="24" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUE-lu-gu6">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUE-lu-gu6">
                             <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="24" id="BGW-nm-FOB"/>
-                                <constraint firstAttribute="height" constant="24" id="PdG-L4-evK"/>
-                            </constraints>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="PlusJakartaSans-Bold" family="Plus Jakarta Sans" pointSize="12"/>
                             <color key="textColor" name="WhiteColor"/>
                             <nil key="highlightedColor"/>
@@ -97,12 +90,6 @@
                         </label>
                     </subviews>
                     <color key="backgroundColor" name="PrimaryColor"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="24" id="dKC-Iv-puF"/>
-                        <constraint firstItem="gUE-lu-gu6" firstAttribute="centerX" secondItem="5Bf-DQ-mvm" secondAttribute="centerX" id="eQL-PA-9vh"/>
-                        <constraint firstAttribute="height" constant="24" id="kNz-Hd-ccf"/>
-                        <constraint firstItem="gUE-lu-gu6" firstAttribute="centerY" secondItem="5Bf-DQ-mvm" secondAttribute="centerY" id="olX-mL-DjO"/>
-                    </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                             <integer key="value" value="12"/>
@@ -112,25 +99,16 @@
             </subviews>
             <viewLayoutGuide key="safeArea" id="xwE-AO-rQX"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-            <constraints>
-                <constraint firstItem="kt2-3A-bvy" firstAttribute="top" secondItem="wf6-Cq-pme" secondAttribute="top" constant="8" id="7iN-Iu-ix2"/>
-                <constraint firstItem="sFT-Dy-pw2" firstAttribute="leading" secondItem="kt2-3A-bvy" secondAttribute="leading" id="AwF-Uu-83D"/>
-                <constraint firstAttribute="width" constant="359" id="E9o-u4-imc"/>
-                <constraint firstItem="5Bf-DQ-mvm" firstAttribute="centerY" secondItem="sFT-Dy-pw2" secondAttribute="centerY" id="Gld-1T-5ll"/>
-                <constraint firstItem="kt2-3A-bvy" firstAttribute="leading" secondItem="KDh-YU-I9E" secondAttribute="trailing" constant="16" id="JBa-Yt-NGi"/>
-                <constraint firstItem="KDh-YU-I9E" firstAttribute="centerY" secondItem="wf6-Cq-pme" secondAttribute="centerY" id="K0Z-uF-F35"/>
-                <constraint firstItem="KDh-YU-I9E" firstAttribute="leading" secondItem="wf6-Cq-pme" secondAttribute="leading" constant="8" id="M8I-ti-2ww"/>
-                <constraint firstAttribute="height" constant="64" id="T0m-qh-wil"/>
-                <constraint firstItem="IUK-Pw-pgI" firstAttribute="centerY" secondItem="kt2-3A-bvy" secondAttribute="centerY" id="TPX-Xg-h2O"/>
-                <constraint firstAttribute="trailing" secondItem="IUK-Pw-pgI" secondAttribute="trailing" constant="8" id="W8H-gG-huk"/>
-                <constraint firstAttribute="bottom" secondItem="sFT-Dy-pw2" secondAttribute="bottom" constant="12" id="aZm-Zy-csL"/>
-                <constraint firstAttribute="trailing" secondItem="5Bf-DQ-mvm" secondAttribute="trailing" constant="8" id="mkQ-uN-BaZ"/>
-                <constraint firstItem="ZNv-c8-MoE" firstAttribute="bottom" secondItem="KDh-YU-I9E" secondAttribute="bottom" id="tmX-Ek-GDM"/>
-                <constraint firstItem="sFT-Dy-pw2" firstAttribute="width" secondItem="kt2-3A-bvy" secondAttribute="width" id="w4y-U9-xbM"/>
-                <constraint firstItem="ZNv-c8-MoE" firstAttribute="trailing" secondItem="KDh-YU-I9E" secondAttribute="trailing" id="zok-d2-Vrx"/>
-            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="44" y="-548"/>
+            <connections>
+                <outlet property="avatarImageView" destination="KDh-YU-I9E" id="a8f-r9-cWy"/>
+                <outlet property="contentLabel" destination="sFT-Dy-pw2" id="UAK-8V-h2x"/>
+                <outlet property="nameLabel" destination="kt2-3A-bvy" id="Xav-Y8-b1z"/>
+                <outlet property="onlineStatusView" destination="ZNv-c8-MoE" id="wW4-Uc-GcK"/>
+                <outlet property="timeLabel" destination="IUK-Pw-pgI" id="857-DF-G2b"/>
+                <outlet property="unReadView" destination="5Bf-DQ-mvm" id="pQe-5T-7jm"/>
+            </connections>
+            <point key="canvasLocation" x="47.10144927536232" y="-520.3125"/>
         </view>
     </objects>
     <resources>

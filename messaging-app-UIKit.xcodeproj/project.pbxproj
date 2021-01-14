@@ -11,6 +11,8 @@
 		EB39EF2B25B02F3B00646762 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB39EF2A25B02F3B00646762 /* CodeViewController.swift */; };
 		EB39EF2F25B030C700646762 /* CodeChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB39EF2E25B030C700646762 /* CodeChatCell.swift */; };
 		EB39EF3625B043E100646762 /* XibChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB39EF3525B043E100646762 /* XibChatCell.xib */; };
+		EB39EF3925B069A700646762 /* XibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB39EF3825B069A700646762 /* XibViewController.swift */; };
+		EB39EF4325B06E8400646762 /* XibChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB39EF4225B06E8400646762 /* XibChatCell.swift */; };
 		EB73849525AF5CF100C38D7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB73849425AF5CF100C38D7E /* AppDelegate.swift */; };
 		EB73849725AF5CF100C38D7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB73849625AF5CF100C38D7E /* SceneDelegate.swift */; };
 		EB73849C25AF5CF100C38D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB73849A25AF5CF100C38D7E /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 		EB39EF2A25B02F3B00646762 /* CodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
 		EB39EF2E25B030C700646762 /* CodeChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeChatCell.swift; sourceTree = "<group>"; };
 		EB39EF3525B043E100646762 /* XibChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibChatCell.xib; sourceTree = "<group>"; };
+		EB39EF3825B069A700646762 /* XibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibViewController.swift; sourceTree = "<group>"; };
+		EB39EF4225B06E8400646762 /* XibChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibChatCell.swift; sourceTree = "<group>"; };
 		EB73849125AF5CF100C38D7E /* messaging-app-UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "messaging-app-UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB73849425AF5CF100C38D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB73849625AF5CF100C38D7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,7 @@
 			children = (
 				EB7384BC25B0159B00C38D7E /* StoryboardChatCell.swift */,
 				EB39EF2E25B030C700646762 /* CodeChatCell.swift */,
+				EB39EF4225B06E8400646762 /* XibChatCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			children = (
 				EB39EF2A25B02F3B00646762 /* CodeViewController.swift */,
 				EB7384B825B012F400C38D7E /* StoryboardViewController.swift */,
+				EB39EF3825B069A700646762 /* XibViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -198,9 +204,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB7384BD25B0159B00C38D7E /* StoryboardChatCell.swift in Sources */,
+				EB39EF4325B06E8400646762 /* XibChatCell.swift in Sources */,
 				EB73849525AF5CF100C38D7E /* AppDelegate.swift in Sources */,
 				EB39EF2F25B030C700646762 /* CodeChatCell.swift in Sources */,
 				EB7384B925B012F400C38D7E /* StoryboardViewController.swift in Sources */,
+				EB39EF3925B069A700646762 /* XibViewController.swift in Sources */,
 				EB39EF2B25B02F3B00646762 /* CodeViewController.swift in Sources */,
 				EB39EF2125B0206300646762 /* Chat.swift in Sources */,
 				EB73849725AF5CF100C38D7E /* SceneDelegate.swift in Sources */,
